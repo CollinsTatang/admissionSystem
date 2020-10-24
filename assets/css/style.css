@@ -1,0 +1,136 @@
+a, a:link {
+	color:#0093ff;
+}
+a:visited {
+	color:#0093ff;
+}
+
+a:hover {
+	color: #0a1340;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	display: block;
+	max-width: 1200px;
+	padding: 15px;
+	margin-bottom:150px;
+}
+.container main, .container aside {
+	margin: 20px 0;
+}
+header {
+	background-color: #0a1340;
+	padding:7px 15px;
+}
+.logo, .site-title, aside, main {
+	display: inline-block;
+}
+.logo img {
+	width: 70px;
+}
+
+.site-title{
+	font-size: 30px;
+	color: #fff;
+	vertical-align: top;
+	float: right;
+	font-weight: bold;
+}
+.title{
+	font-size: 30px;
+	color: #fff;
+	vertical-align: top;
+	float: right;
+	font-weight: bold;
+	display: inline-block;
+}
+
+aside {
+	width: 20%;
+	background-color: #ddd;
+	min-height: 200px;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+	padding:0;
+	margin: 0;
+}
+
+nav ul li {
+	height: 25px;
+}
+
+nav a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+main {
+	width: 75%;
+	float: right;
+}
+
+main form {
+	max-width: 600px;
+	padding-bottom: 50px;
+}
+
+.student-info table{
+	width: 70%;
+	margin-bottom: 50px;
+}
+
+.student-info td{
+	padding: 7px 5px;
+	border: 1px solid #ddd;
+}
+
+.student-info tr td:first-child {
+	font-weight: bold;
+}
+
+input[type='text'], 
+input[type='email'], 
+input[type='number'], 
+input[type='password'], 
+input[type='date'],
+input[type='check'],
+select
+{
+	display: block;
+	margin-bottom: 10px;
+	min-width: 250px;
+	border-radius: 5px;
+	padding: 7px;
+}
+
+.login-box {
+	text-align: center;
+	display: block;
+	margin: 20% auto;
+	width: 100%;
+}
+
+.login-form{
+	display: inline-block;
+	text-align: center;
+	background-color: #ddd;
+	padding:40px;
+}
+.clear-fix {
+	clear: clear-both;
+}
+footer {
+	position: fixed;
+	width: 100%;
+	bottom:0;
+	text-align: center;
+	height: 35px;
+	background-color: #ddd;
+	padding-top:9px;
+}
